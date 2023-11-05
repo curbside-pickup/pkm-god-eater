@@ -7462,7 +7462,6 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "Nearly always goes first. Always crits.",
 		},
 	},
-	},
 	ampyouverymuch: {
 		name: "Amp You Very Much",
 		desc: "Deals damage and places a damaging hazard.",
@@ -7471,3 +7470,4 @@ export const MovesText: {[k: string]: MoveText} = {
 		end: "  The spikes disappeared from the ground around [TEAM]!",
 		damage: "  [POKEMON] was hurt by the spikes!",
 	},
+};
