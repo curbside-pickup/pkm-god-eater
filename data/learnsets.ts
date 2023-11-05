@@ -89083,6 +89083,7 @@ export const Learnsets: {[k: string]: LearnsetData} = {
 			voltswitch: ["9M"],
 			whirlwind: ["9L14"],
 			wildcharge: ["9M", "9L56"],
+			ampyouverymuch:["9M", "9L56"],
 		},
 		eventData: [
 			{generation: 9, level: 52, shiny: 1, moves: ["forcepalm", "seismictoss", "charge", "slam"]},

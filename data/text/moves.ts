@@ -3577,8 +3577,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	liquidation: {
 		name: "Liquidation",
-		desc: "Has a 20% chance to lower the target's Defense by 1 stage.",
-		shortDesc: "20% chance to lower the target's Defense by 1.",
+		desc: "Has a 100% chance to lower the target's Defense by 1 stage.",
+		shortDesc: "Lowers the target's Defense by 1.",
 	},
 	lockon: {
 		name: "Lock-On",
@@ -7461,5 +7461,14 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "Will always result in a critical hit.",
 			shortDesc: "Nearly always goes first. Always crits.",
 		},
+	},
+	},
+	ampyouverymuch: {
+		name: "Amp You Very Much",
+		desc: "Deals damage and places a damaging hazard.",
+		shortDesc: "Deals damage and sets spikes.",
+		start: "  Spikes were scattered on the ground all around [TEAM]!",
+		end: "  The spikes disappeared from the ground around [TEAM]!",
+		damage: "  [POKEMON] was hurt by the spikes!",
 	},
 };

@@ -2906,7 +2906,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	ditto: {
 		num: 132,
 		name: "Ditto",
-		types: ["Normal"],
+		types: ["Dark"],
 		gender: "N",
 		baseStats: {hp: 77, atk: 78, def: 35, spa: 78, spd: 38, spe: 101},
 		abilities: {0: "Adaptability", H: "Sheer Force"},
