@@ -7471,4 +7471,3 @@ export const MovesText: {[k: string]: MoveText} = {
 		end: "  The spikes disappeared from the ground around [TEAM]!",
 		damage: "  [POKEMON] was hurt by the spikes!",
 	},
-}
