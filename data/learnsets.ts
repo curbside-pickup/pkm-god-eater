@@ -19607,10 +19607,11 @@ export const Learnsets: {[k: string]: LearnsetData} = {
 	ditto: {
 		learnset: {
 			transform: ["9L1", "8L1", "8V", "7L1", "7V", "7S0", "6L1", "5L1", "4L1", "3L1"],
-			aquatail: ["7T", "6T", "5T", "4T"],
+			aquatail: ["9L1"],
+			toxic: ["9L1"],
 		},
 		eventData: [
-			{generation: 7, level: 10, moves: ["transform"], pokeball: "cherishball"},
+			{generation: 7, level: 10, moves: ["transform", "aquatail"], pokeball: "cherishball"},
 		],
 		encounters: [
 			{generation: 1, level: 12},
